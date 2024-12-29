@@ -1,0 +1,57 @@
+{
+    "orderId": "2DF5489CC",
+    "billingId": "BILL123456",
+    "userId": "USER7890",
+    "createdAt": "2024-08-08T12:34:56Z",
+    "products": [
+      {
+        "productId": "PROD001",
+        "productName": "Product A",
+        "quantity": 2,
+        "price": 50,
+        "discount": 5
+      }
+    ],
+    "amount": 195,
+    "orderStatus": "Pending",
+    "isPaid": false,
+    "taxes": [
+      {
+        "taxType": "Sales Tax",
+        "taxAmount": 15
+      }
+    ],
+    "totals": {
+      "totalItems": 3,
+      "totalWithoutTaxes": 180,
+      "totalWithTaxes": 195,
+      "totalTaxes": 15
+    },
+    "billingAddress": {
+      "region": "California",
+      "coordinates": {
+        "latitude": "34.0522",
+        "longitude": "-118.2437"
+      },
+      "postalCode": "90001",
+      "address": "123 Main St, Los Angeles, CA",
+      "ipAddress": "192.168.1.1"
+    },
+    "comments": [
+      {
+        "commentBy": "user",
+        "message": "Please deliver between 9 AM and 5 PM.",
+        "createdAt": "2024-08-08T13:00:00Z"
+      }
+
+    ],
+    "orderType": "Online",
+    "referralCode": "REF123",
+    "currency": {
+      "name": "Dollar American",
+      "iso": "USD",
+      "exchange": 1
+    },
+    "expirationDate": "2024-08-15T12:34:56Z"
+  }
+  
